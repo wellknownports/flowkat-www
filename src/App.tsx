@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import flowkat_bingbing from './flowkat_bingbing.gif';
 import './App.css';
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
         >
           Learn React
         </a>
+
+        <img src={flowkat_bingbing} alt="영업중" />
+
       </header>
     </div>
   );
